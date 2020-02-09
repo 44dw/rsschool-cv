@@ -1,5 +1,5 @@
 # Resume
-=========
+------------
 ### Name
 *Dmitrii Akhmetshin*
 
@@ -14,7 +14,7 @@ method | address
 > I'm currently interesting to become a fullstack developer and include myself to frontend development process as well.
 
 ### Skills
-=========
+------------
 ##### languages 
 * Java 
 * Groovy 
@@ -44,10 +44,18 @@ method | address
 * pgAdmin
 
 ### Code examples 
+```java
+        Optional<String> biggerBookByRandomAuthor = Arrays.stream(authors)
+                .filter(author -> author.getName().equals(library.getRandomAuthor().getName()))
+                .flatMap(author -> author.getBooks().stream())
+                .sorted(Comparator.comparingInt(Book::getNumOfPages).reversed())
+                .map(Book::getTitle)
+                .findFirst();
+```
 [GitHub](https://github.com/44dw)
 
 ### Experience 
-> 1 year of enterprise development in EPAM systems. Worked primarily in bank sector. 
+> 1 year of enterprise development in **EPAM systems**. Worked primarily in bank sector. 
 > Developing Spring cloud microservices, Jenkins pipelines/plugins, React web app. Before that has been tryed myself as an android developer. 
 > Have two apps, published in Google App Store.
 
