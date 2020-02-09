@@ -1,5 +1,4 @@
 # Resume
-------------
 ### Name
 *Dmitrii Akhmetshin*
 
@@ -42,7 +41,7 @@ method | address
 * Mockito
 * PowerMock
 * pgAdmin
-
+------------
 ### Code examples 
 ```java
         Optional<String> biggerBookByRandomAuthor = Arrays.stream(authors)
