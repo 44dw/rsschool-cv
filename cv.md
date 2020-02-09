@@ -3,10 +3,8 @@
 *Dmitrii Akhmetshin*
 
 ### Contact info
-method | address
--------|--------
-**mail** | elevation1987@gmail.com
-**telegram** | @darkwings44
+**mail**: elevation1987@gmail.com,
+**telegram**: @darkwings44
 
 ### Summary
 > I'm middle backend developer working in EPAM Samara. 
