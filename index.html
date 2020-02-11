@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="resume, it, frontend, backend">
+    <meta name="description" content="resume of possible fullstack developer">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dmitrii Akhmetshin resume</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Resume</h1>
+        <hr>
+      </header>
+      <main>
+        <section>
+          <h3>Picture</h3>
+          <img src="Dmitrii.jpg" alt="this is me" width="500" height="666">
+        </section>
+        <section>
+          <h3>Name</h3>
+          <p><i>Dmitrii Akhmetshin</i></p>
+        </section>
+        <section>
+          <h3>Contact info</h3>
+          <p><b>mail:</b> elevation1987@gmail.com, <b>telegram:</b> @darkwings44</p>
+        </section>
+        <section>
+          <h3>Summary</h3>
+          <blockquote>
+              I'm middle backend developer working in EPAM Samara. 
+              I'm currently interesting to become a fullstack developer 
+              and include myself to frontend development process as well.
+          </blockquote>
+        </section>
+        <section>
+          <h2>Skills</h2>
+          <hr>
+          <h4>languages</h4>
+          <ul>
+            <li>Java</li>
+            <li>Groovy</li>
+            <li>Javascript</li>
+            <li>Kotlin</li>
+          </ul>
+          <h4>frameworks</h4>
+          <ul>
+            <li>Spring</li>
+            <li>Hibernate</li>
+            <li>Android ecosystem</li>
+            <li>Jenkins (writing plugins & pipelines)</li>
+            <li>React</li>
+          </ul>
+          <h4>tools</h4>
+          <ul>
+            <li>Liquibase</li>
+            <li>Kafka</li>
+            <li>Bash</li>
+            <li>Zookeeper</li>
+            <li>log4j</li>
+            <li>Maven</li>
+            <li>IntelliJ IDEA</li>
+            <li>Jackson</li>
+            <li>Lombok</li>
+            <li>JUnit</li>
+            <li>Mockito</li>
+            <li>PowerMock</li>
+            <li>pgAdmin</li>
+          </ul>
+          <hr>
+        </section>
+        <section>
+          <h3>Code examples</h3>
+          <code>
+              Optional&lt;String&gt; biggerBookByRandomAuthor = Arrays.stream(authors)<br>
+                  .filter(author -> author.getName().equals(library.getRandomAuthor().getName()))<br>
+                  .flatMap(author -> author.getBooks().stream())<br>
+                  .sorted(Comparator.comparingInt(Book::getNumOfPages).reversed())<br>
+                  .map(Book::getTitle)<br>
+                  .findFirst();
+          </code>
+          <a href="https://github.com/44dw">GitHub</a>
+        </section>
+        <section>
+          <h3>Experience</h3>
+          <blockquote>
+              1 year of enterprise development in EPAM systems. 
+              Worked primarily in bank sector. 
+              Developing Spring cloud microservices, Jenkins pipelines/plugins, 
+              React web app. Before that has been tryed myself as an android developer. 
+              Have two apps, published in Google App Store.
+          </blockquote>
+        </section>
+        <section>
+          <h3>Education</h3>
+          <p><i>Samara Avia Technical College</i></p>
+        </section>
+        <section>
+          <h3>English</h3>
+          <ol>
+              <li>level B1</li>
+              <li>participate in learning cources and Speaking Club</li>
+          </ol>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
